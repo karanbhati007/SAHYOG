@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:elevation="6dp"
+    app:cardCornerRadius="30dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:elevation="6dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:id="@+id/imagepost"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/titlepost"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="@font/overpass_black"
+            android:text="Tdklfbjhuasvf sajbf hsa fj sajh f  dsfsdf af af asf asg dgsyhgr gf sd gfsd " />
+
+        <TextView
+            android:id="@+id/desppost"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:fontFamily="@font/overpass_black"
+            android:layout_marginTop="10dp"
+            android:text="asbfiabsf as fa sf as fa sf asfasfa sf as kfbasf saf as fas ftr t rt rr yr" />
+
+        <TextView
+            android:id="@+id/postDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24/04/2020"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

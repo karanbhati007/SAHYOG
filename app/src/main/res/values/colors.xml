@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F0C40E</color>
+    <color name="colorPrimary1">#ff99cc00</color>
+    <color name="colorPrimaryDark2">#ff669900</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#314755</color>
+    <color name="textHintColor">#405A6A</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#F8CB45</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="darkblue">#153E63</color>
+    <color name="blall">#110F0F</color>
+    <color name="grey">#808185</color>
+    <color name="light_blue">#71B9F1</color>
+    <color name="very_blue">#ABCECB</color>
+    <color name="lightt">#D3F6F3</color>
+    <color name="black">#0C0C0C</color>
+    <color name="my_orange">#F5C073</color>
+    <color name="inactive">#8A8C91</color>
+    <color name="active">#E91E63</color>
+    <color name="secondary_text">#105E52</color>
+    <color name="pink">#ED296C</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>

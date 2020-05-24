@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#E8B715</item>
+        <item name="colorPrimaryDark">#C39808</item>
+        <item name="colorAccent">@color/quantum_googred300</item>
+        <item name="android:textColorHint">#D37806</item>
+
+    </style>
+
+    <style name="CounterOverFlow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/my_orange</item>
+    </style>
+    <style name="bar" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+
+</resources>

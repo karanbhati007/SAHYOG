@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+ <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+     <FrameLayout
+
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+
+         android:id="@+id/frame"
+         android:layout_above="@id/bottom_navigation"
+
+         />
+
+     <com.google.android.material.bottomnavigation.BottomNavigationView
+         android:id="@+id/bottom_navigation"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         app:itemBackground="@color/black"
+         app:itemIconTint="@drawable/selector"
+         app:itemTextColor="@drawable/selector"
+         app:labelVisibilityMode="selected"
+         app:menu="@menu/nav_items" />
+</LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_drawer"
+        app:menu="@menu/nav_draw_items"
+        app:headerLayout="@layout/nav_header_main"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        />
+
+
+ <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/signOut_btn"
+        android:layout_marginTop="-58dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="This is Main Activity"
+        android:textSize="20sp" />-->
+
+  <!--  <Button
+        android:id="@+id/signOut_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_button"
+        android:text="Sign Out" />-->
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
